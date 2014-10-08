@@ -6,6 +6,10 @@ Module Module1
         Dim num As Integer = 1
 
         Do While num <= 7
+            If num > 5 Then
+                Exit Do
+            End If
+
             Console.WriteLine(" " & num)
             num = num + 1
         Loop
